@@ -1,0 +1,12 @@
+This project utilizes the mimic3c.csv dataset, a curated and preprocessed version of the MIMIC-III (Medical Information Mart for Intensive Care) dataset. Originally compiled by the MIT Lab for Computational Physiology, this specific version has been made publicly available via Kaggle by Dr. Scarlat (@drscarlat). It provides a condensed, structured tabular format ideal for modeling clinical outcomes of ICU patients.
+
+MIMIC-III is a comprehensive, de-identified dataset containing information on over 40,000 critical care patients admitted to the Beth Israel Deaconess Medical Center in Boston between 2001 and 2012. It is widely recognized and used in clinical research and machine learning applications in healthcare.
+his curated version of MIMIC-III was selected for several key reasons:
+
+Publicly Available and De-identified: It enables ethical and reproducible research without requiring credentialed access, making it highly accessible for academic and personal projects.
+
+Clean and Pre-Aggregated: The dataset has already aggregated many raw-level events into higher-level features (e.g., number of labs, medications, procedures), streamlining the data preparation process for predictive modeling.
+
+Outcome-Oriented: It includes a clear binary outcome variable, ExpiredHospital, which denotes in-hospital mortality. This aligns perfectly with the objective of predicting ICU patient outcomes.
+
+Rich Feature Set: It contains a diverse mix of demographic, clinical, administrative, and procedural variables, enabling comprehensive multifactorial analysis.
