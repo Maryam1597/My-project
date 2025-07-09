@@ -12,3 +12,15 @@ Outcome-Oriented: It includes a clear binary outcome variable, ExpiredHospital, 
 
 Rich Feature Set: It contains a diverse mix of demographic, clinical, administrative, and procedural variables, enabling comprehensive multifactorial analysis.
 Data Preprocessing and Feature Engineering:
+# My-project
+ICU Mortality Prediction – Data Preprocessing and Feature Engineering
+
+This repository contains the data preprocessing pipeline and feature engineering strategies applied to the `mimic3c.csv` dataset—a structured, curated subset of the MIMIC-III dataset aimed at predicting hospital mortality for ICU patients.
+This project focuses on the comprehensive preprocessing and feature engineering pipeline for the MIMIC-III (Medical Information Mart for Intensive Care III) dataset. The goal is to transform raw clinical data into a clean, normalized, and feature-rich dataset suitable for predictive modeling tasks, particularly for predicting hospital mortality.
+Project Structure and Key Steps:
+Handling Missing Values
+Feature Selection and Cleaning
+Feature Engineering
+Categorical Variable Encoding
+Skewness and Normalization
+Final Dataset Preparation
